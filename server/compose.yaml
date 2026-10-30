@@ -1,0 +1,26 @@
+services:
+  resolver:
+    build: .
+    restart: unless-stopped
+    environment:
+      RESOLVER_TOKEN: ${RESOLVER_TOKEN:?Set your private access token}
+      YUANBAO_COOKIE: ${YUANBAO_COOKIE:?Set your own valid session}
+      HOST: 0.0.0.0
+    expose:
+      - "8787"
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      RESOLVER_DOMAIN: ${RESOLVER_DOMAIN:?Set a domain pointed to this server}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+volumes:
+  caddy_data:
+  caddy_config:
+

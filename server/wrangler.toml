@@ -1,0 +1,7 @@
+name = "wechat-video-private"
+main = "worker.mjs"
+compatibility_date = "2026-09-01"
+# Add RESOLVER_TOKEN and YUANBAO_COOKIE as secrets; never commit them.
+[observability]
+enabled = false
+

@@ -1,0 +1,4 @@
+{$RESOLVER_DOMAIN} {
+    reverse_proxy resolver:8787
+}
+

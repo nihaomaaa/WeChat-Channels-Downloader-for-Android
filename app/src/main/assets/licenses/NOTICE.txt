@@ -1,0 +1,18 @@
+StreamSave uses open-source libraries:
+
+Miuix - Copyright the Miuix contributors.
+AndroidX, Jetpack Compose and Material icons - Copyright The Android Open Source Project / Google.
+Kotlin and kotlinx.coroutines - Copyright JetBrains s.r.o. and Kotlin contributors.
+OkHttp and Okio - Copyright Square, Inc. and contributors.
+Coil - Copyright the Coil contributors.
+
+These libraries are available under the Apache License, Version 2.0.
+See Apache-2.0.txt in this directory for the complete license terms.
+Source repositories and component versions are listed in the accompanying THIRD_PARTY_NOTICES.md.
+
+Backdrop / AndroidLiquidGlass and Shapes - Copyright Kyant, Apache License 2.0.
+The liquid navigation catalog components are adapted from AndroidLiquidGlass 1.0.6.
+See Backdrop-Apache-2.0.txt and source ui/liquid/UPSTREAM.md.
+jsoup - historical dependency in version 1.1, removed in 1.2. Its retained MIT attribution is in jsoup-MIT.txt.
+desugar_jdk_libs - Google and OpenJDK contributors; see desugar-LICENSE.txt.
+

@@ -1,0 +1,1 @@
+{"name":"wechat-video-private-resolver","version":"1.2.0","private":true,"type":"module","engines":{"node":">=22"},"scripts":{"start":"node --env-file=.env node-server.mjs","test":"node --test test/*.test.mjs"}}

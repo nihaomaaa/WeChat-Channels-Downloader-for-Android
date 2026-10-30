@@ -1,0 +1,12 @@
+register: h5
+content: product
+design-language: apple
+apple-mode: app
+layout: native-compose-single-column
+light-background: "#F2F2F7"
+dark-background: "#000000"
+accent: "#0066CC"
+card-radius-dp: 24
+primary-button-height-dp: 56
+secondary-button-height-dp: 48
+blur-radii-dp: [3, 9, 18]
